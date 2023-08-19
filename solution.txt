@@ -24,7 +24,7 @@ $ ls -a
 
 7. Print only unique record of file "student.txt"
 
--->$ uniq -u student.txt
+-->$ sort -u student.txt
 
 8. You have "stud.csv" file which contain sid,sname,city,dept. print only student name.
 
