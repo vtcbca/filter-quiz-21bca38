@@ -35,7 +35,7 @@ $ ls -a
 
 10. You have "stud.csv" file which contain sid,sname,city,dept,fee. print records in ascending order of student name.
 
--->
+--> $ cut -d ',' -f 2-5 stud.csv | sort -t ',' -k1
 
 11. Display count of each line in "Stud.csv". Means how many time records repeat in file.
 
@@ -43,15 +43,15 @@ $ ls -a
 
 12. Convert "into.txt" file into uppercase.
 
--->
+-->$ cat info.txt | tr "[a-z]" "[A-Z]"
 
 13. Print  "VTCBB" as "VTBB".
 
--->
+-->$mv VTCBB VTBB
 
 14. Print "VTCBB" as "VTCD".
 
--->
+-->$mv VTCBB VTCD
 
 15. Display only duplicate line from file "stud.csv"
 
