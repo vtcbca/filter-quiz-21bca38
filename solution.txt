@@ -9,7 +9,6 @@
 3. Print all directiory and file of current directory with hidden files and folder.
 
 $ ls -a
-.  ..  AWD  asp.net  desktop.ini  solution.txt  vtcbb.txt  ~$urnal-1.docx
 
 4. Print second charcter of each line of "VTCBB.txt"
 
